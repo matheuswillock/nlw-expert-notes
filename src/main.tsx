@@ -3,7 +3,7 @@ import React from 'react'
 import App from './App.tsx'
 import {Toaster} from 'sonner'
 import ReactDOM from 'react-dom/client'
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
