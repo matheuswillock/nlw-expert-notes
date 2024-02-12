@@ -19,23 +19,23 @@ function App() {
         <NewNoteCard />
 
         <NoteCard
-          pastTime="há 2 dias"
-          describe="O Drizzle possui um plugin do ESLint para evitar que realizemos updates ou deletes sem where...
-          
-          Para configurar o plugin, é preciso instalar como abaixo:"
+          note={{
+            date: new Date(),
+            content: "Hello world",
+          }}
         />
-        <NoteCard
-          pastTime="há 4 dias"
-          describe="No app do NLW vamos criar um layout incrível, assim podemos entregar a melhor experiência para a comunidade.
+        {/* <NoteCard
+          date="há 4 dias"
+          content="No app do NLW vamos criar um layout incrível, assim podemos entregar a melhor experiência para a comunidade.
 
           Na aplicação React vamos criar um projeto que permite o usuário salvar notas em texto ou áudio."
         />
         <NoteCard
-          pastTime="há 7 dias"
-          describe="Podemos utilizar o pacote chalk para exibir logs no código coloridos para dar um efeito mais legal no terminal.
+          date="há 7 dias"
+          content="Podemos utilizar o pacote chalk para exibir logs no código coloridos para dar um efeito mais legal no terminal.
           
           Podemos trocar tanto a cor do texto quanto a cor de fundo do texto impresso no console."
-        />
+        /> */}
       </div>
     </div>
   );
